@@ -6,6 +6,17 @@
   padding: 0 15px;
   background-color: #fff;
 }
+.card {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
+  margin-top: 5px;
+  border: 1px solid #eee;
+}
+.card img {
+  width: 100%;
+  display: block;
+}
 /* header */
 .header-con {
   width: 100%;
@@ -13,7 +24,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #ddd;
 }
 .header-logo {
   display: flex;
